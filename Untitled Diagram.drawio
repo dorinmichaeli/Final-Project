@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T14:17:55.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hnzGtKZ8L478u7zsSbq_" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T14:25:53.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="C3mq6_4DZVcQLY0YdRWQ" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="560" y="320" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eojW3UC1OVigGT29I0GH-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="560" width="60" height="80" as="geometry" />
+          <mxGeometry x="630" y="560" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eojW3UC1OVigGT29I0GH-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="70" width="180" height="100" as="geometry" />
@@ -22,8 +22,8 @@
         <mxCell id="eojW3UC1OVigGT29I0GH-5" value="MapBox" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="105" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eojW3UC1OVigGT29I0GH-15" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="585" width="60" height="30" as="geometry" />
+        <mxCell id="eojW3UC1OVigGT29I0GH-15" value="MongoDB/ Firebase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="635" y="600" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eojW3UC1OVigGT29I0GH-16" value="Client: Participants" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="440" width="180" height="90" as="geometry" />
@@ -42,6 +42,12 @@
         </mxCell>
         <mxCell id="eojW3UC1OVigGT29I0GH-24" value="Adding Lineup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="eojW3UC1OVigGT29I0GH-21">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eojW3UC1OVigGT29I0GH-26" value="Group Chat" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="550" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eojW3UC1OVigGT29I0GH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eojW3UC1OVigGT29I0GH-17" target="eojW3UC1OVigGT29I0GH-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
